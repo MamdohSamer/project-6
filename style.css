@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(243, 234, 227);
+    margin: 0px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height:600px;
+}
+main{
+    display: flex;
+
+}
+.image{
+    background-image: url(images/image-product-desktop.jpg);
+    width: 268px;
+    height: 400px;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+}
+.content{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: rgb(157, 157, 169);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    margin-top: 5px;
+    font-size: 12px;
+}
+h1{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    margin-top: 10px;
+    width: 210px;
+}
+.cont{
+    width: 83%;
+    height: calc(400px - 8%);
+}
+.prices{
+    display: flex;
+    align-items: center;
+}
+#fp{
+    color: rgb(61, 127, 102);
+    width: 150px;
+}
+.pastprice{
+    text-decoration: line-through;
+}
+button{
+    background-color: rgb(61, 129, 104);
+    border: 0px;
+    color: white;
+    width: 90%;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-left:12px;
+
+}
+ button:hover {
+    background-color: rgb(26, 64, 49);
+}
